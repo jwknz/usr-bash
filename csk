@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# csk = create ssh key
+# usage: csk <email> <name> 
+# param: github account as per ssh name
+
+ssh-keygen -t rsa -C "$1" -b 4096 -f $2 -q -N ""
