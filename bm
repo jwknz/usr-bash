@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -rf migrations.copy/ && cp -R migrations/ migrations.copy/
