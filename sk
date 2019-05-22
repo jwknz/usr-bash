@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# sk = switch (ssh) keys
+# usage: sk <param> 
+# param: github account as per ssh name
+
+ssh-add -D
+ssh-add ~/.ssh/github_"$1"

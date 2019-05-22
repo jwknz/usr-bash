@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# acp = add commit push
+# usage: acp <param> 
+# param: commit message
+
+git add -A
+git commit -m "$1"
+git push origin master
