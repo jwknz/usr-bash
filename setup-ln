@@ -3,3 +3,4 @@
 ln -s ./scripts/bm bm
 ln -s ./scripts/acp acp
 ln -s ./scripts/sk sk
+ln -s ./scripts/csk csk
